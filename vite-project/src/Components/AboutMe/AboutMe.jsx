@@ -3,18 +3,20 @@ import React from 'react';
 
 const AboutMe = () => {
     return (
-        <div className='flex flex-col items-center'>
-            <section id='about' className="flex flex-col items-center p-4">
-                <h2 className="text-2xl font-bold mb-2">About Me</h2>
-                <img src="" alt="#" className=''/>
-                <p className="text-gray-300 text-center">
-                    ¡Hola, soy jerson!
-                    Un Fullstack Web Developer de Colombia, que viene de un Background de Química Industríal. Comencé a estudiar WEB a principios de 2022 y aprendí diversas tecnologías como: ReactJS, NodeJS, ExpressJS, PostgreSQL, JavaScript, HTML5. Soy más que todo muy especializado en BackEnd, ya que en mis anteriores estudios aprendí a manejar una gran cantidad de datos y en los proyectos que he realizado he trabjado en esta parte del entorno, pero sin dejar de lado el FrontEnd. <br />
-                    Soy una persona totalmente apasionada por el código, también tengo varias Soft Skills como: Empatía, Resiliencia, Paciencia, Liderazgo. En definitiva sé trabajar en equipo y mantener un orden entre un equipo.
-                    En la parte de comunicación soy una persona impecable con las palabras que usa y el vocabulario con el que se dirige a las demás personas, además tengo una certificación en inglés C1, que me permite comunicarme también en un ambiente internacional.
-                </p>
-            </section>
-        </div>
+        
+        <div id='about' class="container mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 h-screen">
+              <div class="max-h-96 md:h-screen">
+                <img class="w-auto h-screen object-contain object-top" src="https://i.ibb.co/GCGsm1s/img-profile.jpg" alt=""/>
+              </div>
+              <div class="flex bg-slate-600 p-10">
+                <div class="mb-auto mt-auto max-w-lg">
+                  <h1 class="text-gray-200 text-3xl font-bold ">!Hola, soy Jerson¡</h1>
+                  <p className='text-gray-200 font-bold'>Soy un apasionado desarrollador Full Stack de 22 años con experiencia en Química Industrial, lo que me brinda una perspectiva única en la resolución de problemas. Especializado en backend y frontend, tengo habilidades en tecnologías como HTML, CSS, JavaScript, React y Node.js, lo que me permite crear soluciones completas y robustas. Familiarizado con SCRUM y GIT, colaboro eficientemente en equipos multidisciplinarios, priorizando una comunicación clara para satisfacer las necesidades de clientes y usuarios. Mis softskills incluyen empatía, liderazgo y una excelente capacidad de comunicación. Con un nivel C1 en inglés, puedo colaborar en entornos internacionales. Mi pasión por el aprendizaje me impulsa a ofrecer soluciones innovadoras y de alta calidad en todos mis proyectos.</p>
+                </div>
+              </div>
+            </div>
+          </div>
 
     );
 };

@@ -10,8 +10,8 @@ function App() {
       <Header />
       <main className="container mx-auto">
         <AboutMe />
-        <Contact />
         <Projects />
+        <Contact />
       </main>
     </div>
   );
