@@ -20,7 +20,7 @@ const AboutMe = () => {
                     </h2>
 
                     <p className='text-gray-200 font-bold'>
-                    Soy un apasionado desarrollador Full Stack con experiencia en Química Industrial, lo que me brinda una perspectiva única en la resolución de problemas. Especializado en backend y frontend, tengo habilidades en tecnologías como HTML, CSS, JavaScript, React y Node.js, lo que me permite crear soluciones completas y robustas. Familiarizado con SCRUM y GIT, colaboro eficientemente en equipos multidisciplinarios, priorizando una comunicación clara para satisfacer las necesidades de clientes y usuarios. Mis softskills incluyen empatía, liderazgo y una excelente capacidad de comunicación. Con un nivel C1 en inglés, puedo colaborar en entornos internacionales. Mi pasión por el aprendizaje me impulsa a ofrecer soluciones innovadoras y de alta calidad en todos mis proyectos.
+                    I am a passionate Full Stack developer with experience in Industrial Chemistry, which provides me with a unique perspective in problem-solving. Specializing in both backend and frontend, I have skills in technologies such as HTML, CSS, JavaScript, React, and Node.js, enabling me to create comprehensive and robust solutions. Familiar with SCRUM and GIT, I collaborate efficiently in multidisciplinary teams, prioritizing clear communication to meet the needs of clients and users. My soft skills include empathy, leadership, and excellent communication abilities. With a C1 level in English, I can collaborate in international environments. My passion for learning drives me to deliver innovative and high-quality solutions in all my projects.
                     </p>
                 </div>
             </main>

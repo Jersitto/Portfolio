@@ -7,16 +7,16 @@ const Projects = () => {
     const projectsData = [
         {
             title: 'HenryCollege',
-            description: 'Una página web diseñada y orientada a prestar un servicio de aprendizaje por medio de suscripción mensual. Esta web está pensada para aquellas personas que terminan un bootcamp y quieren empezar a reforzar sus conocimientos, tanto en las tecnologías que ya conoce y otras totalmente nuevas.',
+            description: 'It is a website designed to offer a learning service through a monthly subscription. It is specifically targeted towards individuals who have completed a bootcamp and want to reinforce their knowledge in the technologies they already know, as well as delve into entirely new ones.',
             images: [
                 'https://i.ibb.co/z4qJPtR/Captura-de-pantalla-2023-07-28-132108.png', 'https://i.ibb.co/JdS8p07/Captura-de-pantalla-2023-07-28-132133.png', 'https://i.ibb.co/jWLCJBW/Captura-de-pantalla-2023-07-28-132151.png'
             ],
             link: 'https://main--chic-queijadas-00551c.netlify.app/'
         }, {
             title: 'FarmaStack',
-            description: 'Una página web diseñada como una solución virtual al acceso fácil y rapido a medicinas y articulos de aseo personal. Está pensada como un modelo de negocios de E-commerce con una integración a Paypal, con un registro de perfil con Auth0.',
+            description: 'The website is crafted as a virtual solution for easy and quick access to medicines and personal care products. It is conceived as an E-commerce business model with seamless integration to PayPal, and it features a user profile registration with Auth0.',
             images: [
-                'https://i.ibb.co/3k5jR3w/zyro-image.png', 'https://i.ibb.co/bN2wbwM/Captura-de-pantalla-2023-05-23-162058.png'
+                'https://i.ibb.co/bN2wbwM/Captura-de-pantalla-2023-05-23-162058.png', 'https://i.ibb.co/h7wsZHt/Captura-de-pantalla-2023-05-23-162206.png' , 'https://i.ibb.co/bvqdJXH/Captura-de-pantalla-2023-05-23-162233.png', 'https://i.ibb.co/S5ZXLPt/Captura-de-pantalla-2023-05-23-162421.png'
             ],
             link: 'https://front-farma-stack.vercel.app/'
         },
